@@ -70,7 +70,7 @@ def monthly_report(update: Update, context: CallbackContext) -> None:
 # Main function to run the bot
 def main():
     init_db()
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+    updater = Updater("8160529510:AAE_6jaP1RR_77pF-imzRwSoYDUuFwksz-w", use_context=True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler("start", start))
