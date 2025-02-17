@@ -1,0 +1,8 @@
+[phases.setup]
+pkgs = ["python3Packages.python39", "python3Packages.pip"]
+
+[phases.build]
+cmds = ["pip install -r requirements.txt"]
+
+[phases.runtime]
+cmd = "python telegram.py"
